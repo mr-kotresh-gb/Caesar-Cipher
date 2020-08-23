@@ -58,7 +58,7 @@ class Application(Frame):
         self.result.grid(row=10, column=0, columnspan=3, padx=5, sticky=W)
 
         # Github label
-        self.github = Label(self, text="Fork it at https://github.com/kotreshgb/Competitive-Coding/", cursor="hand2")
+        self.github = Label(self, text="Find this at Github", cursor="hand2")
         self.github.bind("<Button-1>", self.githubLink)
         self.github.grid(row=11, column=0, columnspan=3, padx=5, sticky=W)
 
