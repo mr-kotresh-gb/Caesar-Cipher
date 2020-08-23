@@ -1,7 +1,6 @@
 from tkinter import *
 import webbrowser
 
-
 class Application(Frame):
 
     def __init__(self, master):
@@ -63,7 +62,7 @@ class Application(Frame):
         self.github.grid(row=11, column=0, columnspan=3, padx=5, sticky=W)
 
     def githubLink(self, event):
-        webbrowser.open_new(r"http://github.com/kotreshgb/Competitive-Coding")
+        webbrowser.open_new(r"https://github.com/kotreshgb/Caesar-Cipher")
 
     def caesar(self):
 
